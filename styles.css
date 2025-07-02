@@ -39,7 +39,7 @@ th, td {
 }
 
 tr:nth-child(even) {
-    background-color: #c8c3cc
+    background-color: #fff;
 }
 
 th {
@@ -69,7 +69,7 @@ h3 {
 
 abbr {
     color:#3b2c31;
-    font-style: italic bold;
+    font-style: italic;
 }
 hr {
     border: 1px solid #563f46;

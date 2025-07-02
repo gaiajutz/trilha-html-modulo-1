@@ -9,12 +9,12 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
 <body>
-   <main>
-      <header>
-         <h1 id="inicio">Módulo 1 - Primeiros Passos com HTML</h1>
-      </header>
-      <hr />
+   <header>
+      <h1 id="inicio">Módulo 1 - Primeiros Passos com HTML</h1>
+   </header>
+   <hr />
 
+   <main>
       <h2>Índice</h2>
       <blockquote><ol>
         <li><a href="#clients">Entendendo o Modelo Cliente-Servidor (Client/Server)</a></li>
@@ -25,39 +25,42 @@
       </blockquote>
    
       <h2 id="clients">Entendendo o Modelo Cliente-Servidor (Client/Server)</h2>
-       <p>O <strong>modelo cliente-servidor</strong>, do inglês "client/server", é um modelo de arquitetura de rede
+      <p>O <strong>modelo cliente-servidor</strong>, do inglês "client/server", é um modelo de arquitetura de rede
          desenvolvido na década de 1970, nos Estados Unidos, baseado na troca de mensagens entre as requisições do <u>cliente</u> e
          o fornecimento das informações requisitadas, enviadas pelo <u>servidor</u>.</p>
    
       <figure>
          <img src="https://madooei.github.io/cs421_sp20_homepage/assets/client-server-1.png" alt="ilustração da interação entre client e server" width="500px">
-      <figcaption>Interação entre cliente e servidor | Madooei.github</figcaption>
+         <figcaption>Interação entre cliente e servidor | Madooei.github</figcaption>
       </figure>
 
       <p>Essa estrutura é o modelo mais predominante para implementação de redes em larga escala, permitindo que as empresas personalizem
-      os componentes da forma mais conveniente para os seus objetivos, garantindo mais segurança das informações da empresa e facilidade no dia a dia.
-      Nesse modelo, <mark>diversos dispositivos podem se conectar a um servidor central para acessar recursos compartilhados</mark>, como arquivos, impressoras, bancos de dados, aplicativos e serviços de internet. 
+         os componentes da forma mais conveniente para os seus objetivos, garantindo mais segurança das informações da empresa e facilidade no dia a dia.
+         Nesse modelo, <mark>diversos dispositivos podem se conectar a um servidor central para acessar recursos compartilhados</mark>, como arquivos, impressoras, bancos de dados, aplicativos e serviços de internet. 
       <br><br>
-      O <strong>cliente</strong> é relacionado aos dispositivos de computação, como computadores, notebooks, tablets e smartphones, 
-      além de aplicativos que se conectam a servidores por meio de protocolos de rede para fazer uma requisição.
-      O <strong>servidor</strong> é o componente do sistema ou aplicação que recebe a requisição dos clientes e fornece as informações requisitadas 
-      a partir de uma <strong>bases de dados</strong>, usada pelo servidor para armazenar e gerenciar dados usados pelos clientes. 
+         O <strong>cliente</strong> é relacionado aos dispositivos de computação, como computadores, notebooks, tablets e smartphones, 
+         além de aplicativos que se conectam a servidores por meio de protocolos de rede para fazer uma requisição.
+         O <strong>servidor</strong> é o componente do sistema ou aplicação que recebe a requisição dos clientes e fornece as informações requisitadas 
+         a partir de uma <strong>bases de dados</strong>, usada pelo servidor para armazenar e gerenciar dados usados pelos clientes. 
       <br><br>
-      Para que possa haver comunicação entre os dois lados, é necessário uma <strong>rede</strong>, que pode ser de <i>área local (LAM)</i> ou <i>global (internet)</i>.
-      Convencionalmente, existe um conjunto de regras e procedimentos padrões que regem a comunicação entre cliente e servidor, os chamados <strong>protocolos de comunicação</strong>.
-      Os protocolos mais comuns são o <u>HTTP (Hypertext Transfer Protocol)</u> usado na web e o <u>HTTPS</u>, que certifica criptografia de ponta a ponta e garante a segurança do website.
+         Para que possa haver comunicação entre os dois lados, é necessário uma <strong>rede</strong>, que pode ser de <i>área local (LAM)</i> ou <i>global (internet)</i>.
+         Convencionalmente, existe um conjunto de regras e procedimentos padrões que regem a comunicação entre cliente e servidor, os chamados <strong>protocolos de comunicação</strong>.
+         Os protocolos mais comuns são o <u>HTTP (Hypertext Transfer Protocol)</u> usado na web e o <u>HTTPS</u>, que certifica criptografia de ponta a ponta e garante a segurança do website.
       <br></p>
-      <blockquote>O <strong>desenvolvimento back-end</strong> trabalha com <u>linguagens server-side</u>: JavaScript, Java, PHP, C#, Ruby, ASP. <br>
-      O <strong>desenvolvimento front-end</strong> trabalha com <u>linguagens client-side</u>: CSS, JavaScript. Também usa o HTML, que é um arquivo de marcação.
+      
+      <blockquote>
+         O <strong>desenvolvimento back-end</strong> trabalha com <u>linguagens server-side</u>: JavaScript, Java, PHP, C#, Ruby, ASP. <br>
+         O <strong>desenvolvimento front-end</strong> trabalha com <u>linguagens client-side</u>: CSS, JavaScript. Também usa o HTML, que é um arquivo de marcação.
       </blockquote>
       <small><a href="#inicio">Retornar ao início ↑</a></small>
 
       <h2 id="html">Primeiros Passos com HTML</h2>
-      <p>O <abbr><strong>HTML</strong></abbr> (HyperText Markup Language) é um <mark>arquivo de marcação que estrutura uma página web</mark>, responsável por organizar e apresentar informações
-      para os navegadores, identificando cada elemento da página. Ele é formado por tags entre colchetes angulares e
-      costumam vir em pares, com uma <u>&lt;tag de abertura&gt;</u> <i>(opening tag)</i> e uma <u>&lt;tag de fechamento&gt;</u> <i>(closing tag)</i> que abraçam o conteúdo entre elas.
-      O HTML é um documento descritivo e pode ser aprimorado com linguagens de programação para ampliar suas funcionalidades, como o <abbr><u><strong>CSS</strong></abbr> (Cascading Style Sheets) para
-      estilizar</u> a aparência da página e o <u><strong>JavaScript</strong> para definir sua interatividade</u>.</p>
+      <p>
+         O <abbr><strong>HTML</strong></abbr> (HyperText Markup Language) é um <mark>arquivo de marcação que estrutura uma página web</mark>, responsável por organizar e apresentar informações
+         para os navegadores, identificando cada elemento da página. Ele é formado por tags entre colchetes angulares e
+         costumam vir em pares, com uma <u>&lt;tag de abertura&gt;</u> <i>(opening tag)</i> e uma <u>&lt;tag de fechamento&gt;</u> <i>(closing tag)</i> que abraçam o conteúdo entre elas.
+         O HTML é um documento descritivo e pode ser aprimorado com linguagens de programação para ampliar suas funcionalidades, como o <abbr><u><strong>CSS</strong></abbr> (Cascading Style Sheets) para
+         estilizar</u> a aparência da página e o <u><strong>JavaScript</strong> para definir sua interatividade</u>.</p>
 
       <figure>
          <img src="https://www.driven.com.br/wp-content/uploads/2022/12/html_element.png" alt="exemplo da estrutura da tag html com as tags entre o conteúdo" width="500">
@@ -66,7 +69,7 @@
       <small><a href="#inicio">Retornar ao início ↑</a></small>
 
       <h2 id="tags">Tags Básicas</h2>
-         <table>
+      <table>
          <tr>
             <th>&lt;/&gt;</th>
             <th>Função</th>
@@ -140,19 +143,21 @@
       
       <h2 id="html5">HTML Semântico e HTML5</h2>
       <p>
-      Como o HTML é o documento que estrutura uma página web, ele é o <mark>arquivo-fonte</mark> que será usado por mecanismos de busca da internet
-      para resumir o conteúdo do seu website, além de ser utilizado por leitores de tela para auxiliar usuários com deficiência visual.
-      Por tais motivos, é importante o uso de boas práticas do HTML, as chamadas <strong>tags semânticas</strong>.
+         Como o HTML é o documento que estrutura uma página web, ele é o <mark>arquivo-fonte</mark> que será usado por mecanismos de busca da internet
+         para resumir o conteúdo do seu website, além de ser utilizado por leitores de tela para auxiliar usuários com deficiência visual.
+         Por tais motivos, é importante o uso de boas práticas do HTML, as chamadas <strong>tags semânticas</strong>.
       <br><br>
-      Essas tags reforçam a função de cada elemento na página, fechando a janela de interpretação que usar apenas tags simples como
-      <u>&lt;div&gt;</u> podem gerar. No caso de um botão, por exemplo, a tag <u>&lt;button&gt;</u> carrega mais semântica que uma div, pois 
-      o código será lido imediatamente como um botão.
+         Essas tags reforçam a função de cada elemento na página, fechando a janela de interpretação que usar apenas tags simples como
+         <u>&lt;div&gt;</u> podem gerar. No caso de um botão, por exemplo, a tag <u>&lt;button&gt;</u> carrega mais semântica que uma div, pois 
+         o código será lido imediatamente como um botão.
       </p>
-      <blockquote><strong>HTML5</strong> é a última versão do HTML e conta com melhorias nesse sentido, dando suporte a tags mais semânticas,
-      criando estruturas mais claras, além de recursos de multimídia, como áudio, vídeo, gráficos vetoriais, animações e jogos,
-      que exigiam o uso de JavaScript anteriormente, conferindo mais dinamicidade ao HTML.
-      Isso também garante mais segurança para o website, pois depende menos de aplicações externas, como o Flash,
-      contando com APIs que podem ser usados para criar aplicações web mais seguras.</blockquote>
+
+      <blockquote>
+         <strong>HTML5</strong> é a última versão do HTML e conta com melhorias nesse sentido, dando suporte a tags mais semânticas,
+         criando estruturas mais claras, além de recursos de multimídia, como áudio, vídeo, gráficos vetoriais, animações e jogos,
+         que exigiam o uso de JavaScript anteriormente, assim conferindo mais dinamicidade ao HTML.
+         Isso também garante mais segurança para o website, pois depende menos de aplicações externas, como o Flash,
+         contando com APIs que podem ser usados para criar aplicações web mais seguras.</blockquote>
 
       <h3>Convenção de Tags no HTML5</h3>
       
@@ -162,11 +167,11 @@
       </figure>
 
       <p> 
-      É importante manter o código atualizado conforme as boas práticas de HTML5, para <mark>melhorar a experiência do usuário e a visibilidade
-      do seu website para mecanismos de busca e leitores de tela</mark>, além de proteger-se contra possíveis vulnerabilidades.
+         É importante manter o código atualizado conforme as boas práticas de HTML5, para <mark>melhorar a experiência do usuário e a visibilidade
+         do seu website para mecanismos de busca e leitores de tela</mark>, além de proteger-se contra possíveis vulnerabilidades.
       <br><br>
-      Algumas tags se tornaram <strong>obsoletas no HTML5</strong>, ou seja, não são mais suportadas por alguns navegadores, o que pode causar problemas
-      de compatibilidade, sendo aconselhável <u>evitar usá-las</u>. Confira abaixo algumas tags que estão obsoletas e como usar sua função no HTML5:
+         Algumas tags se tornaram <strong>obsoletas no HTML5</strong>, ou seja, não são mais suportadas por alguns navegadores, o que pode causar problemas
+         de compatibilidade, sendo aconselhável <u>evitar usá-las</u>. Confira abaixo algumas tags que estão obsoletas e como usar sua função no HTML5:
       </p>
 
       <table>
@@ -211,7 +216,7 @@
         <li><a href="https://www.controle.net/faq/cliente-servidor-uma-estrutura-para-a-computacao-centralizada" target=”_blank”>https://www.controle.net</a></li></ul></blockquote>
       <small><a href="#inicio">Retornar ao início ↑</a></small>
       <br><br>
-      <footer><p>Feito por <strong>Gaia Gaijutis</strong> para o Bootcamp de Front-end da DIO.me | GitHub: gaiajutz | Julho/2025</p></footer>
    </main>
+   <footer><p>Feito por <strong>Gaia Gaijutis</strong> para o Bootcamp de Front-end da DIO.me | GitHub: gaiajutz | Julho/2025</p></footer>
 </body>
 </html>
