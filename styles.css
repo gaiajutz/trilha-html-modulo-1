@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color:#c8c3cc;
+    
+}
+
+main {
+    background-color: #fff;
+    max-width: 700px;
+    margin-right: 250px;
+    margin-left: 250px;
+    padding: 40px;
+    padding-top: 10px;
+}
+
+mark {
+    background-color: #c8c3cc;
+}
+
+p {
+    text-align: justify;
+}
+
+
+table {
+  border-collapse: collapse;
+  background-color:#c8c3cc;
+  width: 100%;
+  font-size: 14px;
+  align-items: center;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #3b2c31;
+}
+
+tr:nth-child(even) {
+    background-color: #c8c3cc
+}
+
+th {
+  background-color: #563f46;
+  color: white;
+  text-align: center;
+}
+
+blockquote {
+    padding: 10px;
+    border-left: 15px solid #563f46;
+    background-color: #c8c3cc;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 22px;
+    margin-left: 60px;
+}
+
+abbr {
+    color:#3b2c31;
+    font-style: italic bold;
+}
+hr {
+    border: 1px solid #563f46;
+}
+
+footer, header {
+  font-size: 12px;
+  padding: 8px;
+  background-color: #563f46;
+  color: #fff;
+}
+
+figcaption {
+    font-size: 12px;
+    text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+footer p {
+    text-align: center;
+}
+
+header h1 {
+    text-align: center;
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    color: #563f46;
+}
+
+
+small a {
+    color:#563f46;
+}
