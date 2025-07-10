@@ -1,7 +1,7 @@
 # Trilha HTML - Dio.me
 
 - Página criada para o desafio do Módulo 01 de HTML do Bootcamp de Front-end da DIO.me
-- A página pode ser visualizada <a href="https://codepen.io/Gaia-the-encoder/full/VYLOPyv" target="_blank">neste link</a>
+- A página pode ser visualizada <a href="https://gaiajutz.github.io/trilha-html-modulo-1/" target="_blank">neste link</a>
 - Página criada por Gaia Gaijutis
 
 ## Módulo 01 - Primeiros passos com HTML
