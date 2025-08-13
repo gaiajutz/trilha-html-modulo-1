@@ -3,7 +3,6 @@
 body {
     font-family: "Open Sans", sans-serif;
     background-color:#c8c3cc;
-    
 }
 
 main {
@@ -22,7 +21,6 @@ mark {
 p {
     text-align: justify;
 }
-
 
 table {
   border-collapse: collapse;
@@ -90,6 +88,8 @@ figcaption {
 img {
   display: block;
   margin: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 footer p {
@@ -108,7 +108,71 @@ a:hover {
     color: #563f46;
 }
 
-
 small a {
     color:#563f46;
+}
+
+/* Media Queries para responsividade */
+@media only screen and (max-width: 1200px) {
+    main {
+        margin-right: 150px;
+        margin-left: 150px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    main {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+        margin-right: 20px;
+        margin-left: 20px;
+        padding: 20px;
+    }
+    
+    h1 {
+        font-size: 28px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+    
+    h3 {
+        font-size: 20px;
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    main {
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 15px;
+    }
+    
+    h1 {
+        font-size: 24px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    }
+    
+    h3 {
+        font-size: 18px;
+        margin-left: 15px;
+    }
+    
+    table {
+        font-size: 12px;
+    }
+    
+    th, td {
+        padding: 5px;
+    }
 }
